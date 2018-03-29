@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#C39BD3"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F9E79F"
+    android:layout_height="wrap_content">
+    >
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:background="#ABEBC6"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+          android:text="List" />
+
+
+</LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="enter name"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/edt_bday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="enter bday"
+        android:inputType="date"
+        android:textSize="25dp" />
+
+
+    <EditText
+            android:id="@+id/edt_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:hint="enter salary"
+            android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/btnClose"
+        android:background="#ABEBC6"
+        android:text="ADD"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
+

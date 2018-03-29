@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#C39BD3"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:hint="enter name"
+        android:inputType="textPersonName"
+        android:textSize="25dp" />
+
+    <EditText
+            android:id="@+id/edt_bday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:hint="enter bday"
+            android:inputType="date" />
+
+
+        <EditText
+            android:id="@+id/edt_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:hint="enter salary"
+            android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edt_tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edt_hr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edt_fsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+
+        android:inputType="number" />
+
+
+</LinearLayout>
+
+
+
+
+
